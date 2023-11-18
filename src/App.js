@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -15,9 +15,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hello World
         </a>
       </header>
+      <footer className="App-footer">
+        <h3>TMT Innovative Sollution</h3>
+      </footer>
     </div>
   );
 }
