@@ -1,13 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import ClassComponent from "./components/ClassComponent";
+import ProductDetailComponent from "./components/ProductDetailComponent";
+import CounterComponent from "./components/CounterComponent";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <ClassComponent title="Demo using Prop in class component" /> */}
+    <br />
+    {/* <FunctionComponent/> */}
+{/* 
+    <ProductDetailComponent
+      title="Iphone 14"
+      // price={1000}
+      content="Description"
+    /> */}
+
+    <CounterComponent/>
   </React.StrictMode>
 );
 
