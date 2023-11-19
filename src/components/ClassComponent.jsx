@@ -6,7 +6,7 @@
 //     }
 // }
 // export default ClassComponent;
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
 class ClassComponent extends Component {
   render() {
@@ -14,8 +14,8 @@ class ClassComponent extends Component {
       <div>
         <h1>{this.props.title}</h1>;
       </div>
-    );
+    )
   }
 }
 
-export default ClassComponent;
+export default ClassComponent

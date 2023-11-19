@@ -1,13 +1,13 @@
 // import logo from "./logo.svg";
-import "./App.css";
+import './App.css'
 
 function App() {
-  const username = "Lê Thanh Nhã";
-  const age = 18;
+  const username = 'Lê Thanh Nhã'
+  const age = 18
   const employe = {
-    username: "JOHN",
-    age: 20,
-  };
+    username: 'JOHN',
+    age: 20
+  }
   return (
     <div className="App">
       <h1>
@@ -17,7 +17,7 @@ function App() {
         Employe: {employe.username} - {employe.age}
       </h2>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
