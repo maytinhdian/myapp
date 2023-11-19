@@ -7,6 +7,7 @@ import ClassComponent from './components/ClassComponent'
 import ProductDetailComponent from './components/ProductDetailComponent'
 import CounterComponent from './components/CounterComponent'
 import CounterFuncComponent from './components/CounterFuncComponent'
+import CalculatorComponent from './components/CalculatorComponent'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -21,7 +22,7 @@ root.render(
       content="Description"
     /> */}
 
-    <CounterFuncComponent />
+    <CalculatorComponent />
   </React.StrictMode>
 )
 
