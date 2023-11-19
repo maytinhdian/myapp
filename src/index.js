@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import ClassComponent from "./components/ClassComponent";
 import ProductDetailComponent from "./components/ProductDetailComponent";
 import CounterComponent from "./components/CounterComponent";
+import CounterFuncComponent from "./components/CounterFuncComponent";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,7 +21,7 @@ root.render(
       content="Description"
     /> */}
 
-    <CounterComponent/>
+    <CounterFuncComponent/>
   </React.StrictMode>
 );
 
