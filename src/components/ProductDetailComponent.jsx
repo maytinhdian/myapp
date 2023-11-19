@@ -1,13 +1,13 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react'
+import PropTypes from 'prop-types'
 ProductDetailComponent.propTypes = {
   title: PropTypes.string.isRequired,
   price: PropTypes.number,
-  content: PropTypes.string.isRequired,
-};
+  content: PropTypes.string.isRequired
+}
 ProductDetailComponent.defaultProps = {
-  price: 0,
-};
+  price: 0
+}
 function ProductDetailComponent(props) {
   return (
     <div>
@@ -15,7 +15,7 @@ function ProductDetailComponent(props) {
       <h3>Price: {props.price} </h3>
       <p>Content: {props.content} </p>
     </div>
-  );
+  )
 }
 
-export default ProductDetailComponent;
+export default ProductDetailComponent
