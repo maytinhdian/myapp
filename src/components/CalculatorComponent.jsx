@@ -19,9 +19,9 @@ class CalculatorComponent extends Component {
     })
   }
 
-  handleCalculateSum(){
-    let sum = this.state.num1 + this.state.num2;
-    alert()
+  handleCalculateSum() {
+    let sum = this.state.num1 + this.state.num2
+    alert(sum)
   }
 
   componentDidUpdate(prevProps, prevState) {

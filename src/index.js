@@ -8,6 +8,7 @@ import ProductDetailComponent from './components/ProductDetailComponent'
 import CounterComponent from './components/CounterComponent'
 import CounterFuncComponent from './components/CounterFuncComponent'
 import CalculatorComponent from './components/CalculatorComponent'
+import MyApp from './components/MyApp'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -22,7 +23,8 @@ root.render(
       content="Description"
     /> */}
 
-    <CalculatorComponent />
+    {/* <CalculatorComponent /> */}
+    <MyApp />
   </React.StrictMode>
 )
 
